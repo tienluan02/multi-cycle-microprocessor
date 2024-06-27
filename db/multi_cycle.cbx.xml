@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="multi_cycle">
+		<CBX_INST_ENTRY INSTANCE_NAME="|multi_cycle|Datapath_Multi_cycle_Processor:DUT|Register_File:comp7|altsyncram:Regfile_rtl_0" CBX_FILE_NAME="altsyncram_fcl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multi_cycle|Datapath_Multi_cycle_Processor:DUT|Register_File:comp7|altsyncram:Regfile_rtl_1" CBX_FILE_NAME="altsyncram_fcl1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

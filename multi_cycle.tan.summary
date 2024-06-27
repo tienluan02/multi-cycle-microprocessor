@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.137 ns
+From           : SW[15]
+To             : Datapath_Multi_cycle_Processor:DUT|holding_reg:comp5|output_data[13]
+From Clock     : --
+To Clock       : KEY[2]
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 17.110 ns
+From           : Datapath_Multi_cycle_Processor:DUT|Program_Counter:comp1|PC_out[1]
+To             : HEX2[0]
+From Clock     : KEY[2]
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.007 ns
+From           : SW[15]
+To             : HEX2[0]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.471 ns
+From           : SW[10]
+To             : Datapath_Multi_cycle_Processor:DUT|Register_File:comp7|Regfile_0_bypass[0]
+From Clock     : --
+To Clock       : KEY[2]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'KEY[2]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 117.40 MHz ( period = 8.518 ns )
+From           : Datapath_Multi_cycle_Processor:DUT|Program_Counter:comp1|PC_out[3]
+To             : Datapath_Multi_cycle_Processor:DUT|Register_File:comp7|altsyncram:Regfile_rtl_0|altsyncram_fcl1:auto_generated|ram_block1a0~portb_address_reg0
+From Clock     : KEY[2]
+To Clock       : KEY[2]
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
